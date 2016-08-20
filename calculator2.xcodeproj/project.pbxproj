@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EA253631D6855D900053237 /* OperatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA253621D6855D900053237 /* OperatorButton.swift */; };
 		5EC932AE1D68119700D519A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC932AD1D68119700D519A9 /* AppDelegate.swift */; };
 		5EC932B01D68119700D519A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC932AF1D68119700D519A9 /* ViewController.swift */; };
 		5EC932B31D68119700D519A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC932B11D68119700D519A9 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EA253621D6855D900053237 /* OperatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorButton.swift; sourceTree = "<group>"; };
 		5EC932AA1D68119700D519A9 /* calculator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC932AD1D68119700D519A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC932AF1D68119700D519A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				5EC932AD1D68119700D519A9 /* AppDelegate.swift */,
 				5EC932AF1D68119700D519A9 /* ViewController.swift */,
 				5EC932B11D68119700D519A9 /* Main.storyboard */,
+				5EA253621D6855D900053237 /* OperatorButton.swift */,
 				5EC932B71D68119700D519A9 /* Assets.xcassets */,
 				5EC932B91D68119700D519A9 /* LaunchScreen.storyboard */,
 				5EC932BC1D68119700D519A9 /* Info.plist */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA253631D6855D900053237 /* OperatorButton.swift in Sources */,
 				5EC932B61D68119700D519A9 /* calculator2.xcdatamodeld in Sources */,
 				5EC932B01D68119700D519A9 /* ViewController.swift in Sources */,
 				5EC932AE1D68119700D519A9 /* AppDelegate.swift in Sources */,
@@ -392,6 +396,7 @@
 				5EC932CC1D68119700D519A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC932CD1D68119700D519A9 /* Build configuration list for PBXNativeTarget "calculator2Tests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +405,7 @@
 				5EC932CF1D68119700D519A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
